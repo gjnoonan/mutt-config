@@ -8,3 +8,6 @@ set signature           = ~/.mutt/sig                           # my signature f
 set tmpdir              = ~/.mutt/temp                          # where to keep temp files
 set editor              = "vim +/^$ +:s/^$/\\\\r\\\\r/ +:noh -c 'normal! k' -c 'set nolist' -c 'redraw'" # use vim
 set print_command       = /usr/bin/enscript                     # print with enscript
+
+source ~/.mutt/sidebar.muttrc                                   # any sidebar options are here
+
